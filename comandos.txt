@@ -1,0 +1,32 @@
+git clone clona el repositorio 
+
+Cloning into 'hello-world'...
+remote: Enumerating objects: 38, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 38 (delta 0), reused 0 (delta 0), pack-reused 34
+Unpacking objects: 100% (38/38), 59.54 KiB | 1.98 MiB/s, done.
+
+
+git status comprueba que haya cambios
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git add . prepara el directorio para su posterior modificación con commit
+
+
+git commit -m "practica1"
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+git push origin main
