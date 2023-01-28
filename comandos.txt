@@ -24,9 +24,18 @@ git add . prepara el directorio para su posterior modificación con commit
 
 git commit -m "practica1"
 
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
+[main 12440c9] practica1
+ 1 file changed, 32 insertions(+)
+ create mode 100644 comandos.txt
 
 git push origin main
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 714 bytes | 714.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/R0UT3/hello-world
+   48fe276..12440c9  main -> main
